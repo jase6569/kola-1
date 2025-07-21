@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kola CRM App</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Kola CRM — Live Demo</h1>
+  <section>
+    <h2>Lead Tracker</h2>
+    <input id="name" placeholder="Client Name" />
+    <input id="contact" placeholder="Phone/Email" />
+    <input id="service" placeholder="Service Type" />
+    <input id="rep" placeholder="Rep Name" />
+    <button onclick="addLead()">Add Lead</button>
+    <table id="leadTable"><thead><tr><th>Name</th><th>Contact</th><th>Service</th><th>Rep</th></tr></thead><tbody></tbody></table>
+  </section>
+  <section>
+    <h2>AI Assistant</h2>
+    <input id="aiInput" placeholder="Ask something..." />
+    <button onclick="askAI()">Ask</button>
+    <pre id="aiOutput"></pre>
+  </section>
+  <section>
+    <h2>Top Rep Leaderboard</h2>
+    <pre id="leaderboard"></pre>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>

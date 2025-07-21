@@ -1,0 +1,28 @@
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+section {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+input, button {
+  padding: 8px;
+  margin: 4px 0;
+  width: 100%;
+  max-width: 400px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
